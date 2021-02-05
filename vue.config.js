@@ -1,5 +1,6 @@
 module.exports = {
-  publicPath: '/oia/resource-finder/',
+  // publicPath: '/oia/resource-finder/',
+  publicPath: '/immigrant/dev/',
   chainWebpack: (config) => {
     config.resolve.symlinks(false);
   },
